@@ -1,0 +1,167 @@
+ttom# Background 1
+rounded = 5
+border_width = 0  
+border_sides = TBLR
+background_color = #131a1c 75
+background_color_hover = #181f21 75
+background_color_pressed = #1b2224 75
+
+# Background 2
+rounded = 15  
+border_width = 0
+border_sides = TBLR
+background_color = #22292b 100
+
+# Background 3  
+rounded = 7   
+border_width = 0
+border_sides = TBLR
+background_color = #9bdead 100
+
+# Background 4 
+rounded = 5 
+border_width = 0 
+border_sides = TBLR 
+background_color = #22292b 100
+
+# Panel
+panel_items = PPPPPPPPPPPPPPPPPPPPPPPP:SC
+panel_size = 100% 50
+panel_padding = 5 5 5 
+panel_margin = 12 12  
+panel_background_id = 1
+panel_position = bottom right vertical 
+panel_monitor = all
+panel_window_name = tint2
+panel_shrink = 1
+panel_layer = normal
+panel_border = LR 
+
+# Launcher
+button = new
+button_text =  
+button_lclick_command = eww -c ~/.config/eww/systray open settings-panel
+button_rclick_command = killall eww
+button_mclick_command = 
+button_uwheel_command = 
+button_dwheel_command = 
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #181f21 100
+button_padding = 10 10 
+button_background_id = 3
+button_centered = 1
+button_max_icon_size = 0
+button_margin = 1 
+
+#Button 1
+button = new 
+button_text = 
+button_lclick_command = kitty
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #e56b6b 100
+button_padding = 6 10
+button_center = 1
+button_background_id = 1
+
+#Button 2
+button = new 
+button_text =   
+button_lclick_command = dolphin 
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12 
+button_font_color = #e5c76b 100 
+button_padding = 6 10
+button_center = 1
+button_background_id = 1
+
+#Button 6
+button = new
+button_text = 
+button_lclick_command = google-chrome-stable
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #9ee56b 100
+button_padding = 6 10
+button_center = 1
+button_background_id = 1
+
+#Button 3
+button = new 
+button_text = ﬏
+button_lclick_command = code
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #67b0e8 100
+button_padding = 6 10
+button_center = 1
+button_background_id = 1
+
+#Button 7
+button = new
+button_text = 
+button_lclick_command = okular
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #c46be5 100
+button_padding = 6 10
+button_center = 1   
+button_background_id = 1
+
+#Button 9
+button = new
+button_text = 
+button_lclick_command = pycharm
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #e5a46b 100
+button_padding = 6 10
+button_center = 1   
+button_background_id = 1
+
+#Button 10
+button = new
+button_text = 
+button_lclick_command = pycharm
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #6be5cb 100
+button_padding = 6 10
+button_center = 1   
+button_background_id = 1
+
+#Button 11
+button = new
+button_text = ﭮ3;9u
+button_lclick_command = discord
+button_uwheel_command = wmctrl -s 1
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #6b6de5 100
+button_padding = 8 8 
+button_center = 1
+button_background_id = 1
+task_tooltip = 1
+task_thumbnail = 1
+task_thumbnail_size = 400
+
+# Separator 
+separator = new 
+separator_background_id = 1 
+separator_color = #181f21 100
+separator_padding = 50
+
+# Clock
+time1_format = %H %M
+time1_font = DM Sans Mono 12
+clock_font_color = #bdc3c2 100
+clock_background_id = 1
+clock_padding = 0 10
+
+# System tray (notification area)
+systray_padding = 10 4 7
+systray_background_id = 4
+systray_sort = ascending
+systray_icon_size = 20
+systray_icon_asb = 100 0 0
+systray_monitor = primary
+systray_name_filter = string
