@@ -2,6 +2,14 @@
 
 BSPWM Dots
 
-![](./img/Screenshot_2022-05-01-34_2559x1440.png)
-RAM Usage without any apps open: ~800MB
+fetch: fetchmaster6000
+
+![2022-05-01_22-49_1.png](/home/aahuja/GitHub/dotfiles/img/2022-05-01_22-49_1.png)
+
+![2022-05-01_22-50.png](/home/aahuja/GitHub/dotfiles/img/2022-05-01_22-50.png)
+
+![Screenshot_2022-05-01-34.png](/home/aahuja/GitHub/dotfiles/img/Screenshot_2022-05-01-34.png)
+
+![2022-05-01_22-49.png](/home/aahuja/GitHub/dotfiles/img/2022-05-01_22-49.png)
+
 
