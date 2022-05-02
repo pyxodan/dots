@@ -12,4 +12,6 @@ fetch: fetchmaster6000
 
 ![2022-05-01_22-49.png](./img/2022-05-01_22-49.png)
 
-
+TODO:
+- [ ] Installation Script
+- [ ] EWW Widegts
