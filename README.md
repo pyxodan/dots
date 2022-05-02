@@ -14,4 +14,4 @@ fetch: fetchmaster6000
 
 TODO:
 - [ ] Installation Script
-- [ ] EWW Widegts
+- [ ] EWW Widgets
