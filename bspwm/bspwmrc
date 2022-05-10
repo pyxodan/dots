@@ -29,13 +29,16 @@ picom --experimental-backends --config $HOME/.config/picom/picom.conf &
 # light-locker (use lightdm as screenlocker)
 light-locker &
 
+# XFCE4-Power-Manager
+xfce4-power-manager --daemon &
+
 for monitor in $(bspc query -M); do
     bspc monitor $monitor -d 1 2 3 4 5 6 7 8
 done
 
-bspc config focused_border_color '#9bdead'
-bspc config active_border_color  '#e8edea'
-bspc config normal_border_color  '#e8edea'
+bspc config focused_border_color '#94CF95'
+bspc config active_border_color  '#7FE4D2'
+bspc config normal_border_color  '#6EC1D6'
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -51,7 +54,6 @@ bspc config focus_follows_pointer	false
 
 # polybar (horizontal bar)
 $HOME/.config/polybar/launch.sh
-
 # tint2 (vertical bar)
 tint2 &
 

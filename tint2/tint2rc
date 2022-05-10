@@ -2,7 +2,7 @@
 rounded = 5
 border_width = 0  
 border_sides = TBLR
-background_color = #131a1c 100
+background_color = #1A2026 100
 background_color_hover = #181f21 100
 background_color_pressed = #1b2224 100
 
@@ -16,7 +16,7 @@ background_color = #22292b 100
 rounded = 7   
 border_width = 0
 border_sides = TBLR
-background_color = #9bdead 100
+background_color = #94CF95 100
 
 # Background 4 
 rounded = 5 
@@ -39,7 +39,7 @@ panel_border = LR
 
 # Launcher
 button = new
-button_text = 
+button_text = 
 button_lclick_command = $HOME/.config/rofi/launchers/colorful/launcher.sh
 button_mclick_command = 
 button_uwheel_command = 
